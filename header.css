@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.first-section {
+  width: 150px;
+  margin-left: 10px;
+}
+.logo img {
+  width: 150px;
+}
+.second-section ul {
+  display: flex;
+  gap: 20px;
+}
+.second-section ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}

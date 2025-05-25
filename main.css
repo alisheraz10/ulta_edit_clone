@@ -1,0 +1,197 @@
+.title{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.review{
+    display: flex;
+    justify-content: center;
+}
+.download-info{
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;  
+}
+.software-download-button{
+    text-align: center;
+}
+.software-download-button button{
+    background-color: rgb(66, 173, 212);   
+    color: white;
+    border: none;
+    padding: 14px ;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.software-download-button button:hover{
+     background-color: darkslategray;
+}
+.download-version-info{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.second-section{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 30px;
+     /* height: 150px; */
+    text-align: center;
+    padding: 30px;  
+    justify-content: center; 
+}
+.version {
+   background-color: #f1ebeb;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 200px;
+}
+.title-version{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.english-title-version{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+.sub-title-version {
+    font-size: smaller;
+    margin-bottom: 15px;
+}
+.button-version button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.code-version p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.third-section{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 750px;
+}
+.contact-box-section{
+    display: flex;
+    gap: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+
+}
+.contact-box-info{
+    width: 550px;
+    padding-top: 200px;
+    line-height: 25px;
+}
+.contact-box-info-heading{
+    margin-bottom: 15px;
+}
+.contact-box{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+.contact-box-p1{
+    color: rgb(0, 191, 243);
+    font-size: x-large;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.contact-box-p2{
+    font-size: small;
+    margin-bottom: 3px;
+}
+.contact-email-box{
+    height: 40px;
+    width: 250px;
+    border: 1px solid rgb(217, 217, 217);
+    margin-bottom: 15px;
+}
+.contact-box-button button{
+    background-color: rgb(0, 191, 243);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+    padding: 15px 95px;
+    cursor: pointer;
+}
+.contact-box-button :hover{
+    background-color: rgb(83, 175, 201);
+
+}
+.description{
+    margin-top: 180px;
+    margin-left: 450px;
+    margin-right: 450px;
+    line-height: 35px;
+}
+.description-title {
+    font-size: x-large;
+
+}
+.description-info{
+    margin-right: 50px;
+}
+.description-info-text{
+    color: rgb(0, 191, 243);
+    cursor: pointer;
+}
+
+.bottom-section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    gap: 30px;
+    margin-left: 400px;
+    margin-right: 250px;
+    margin-top: 80px;
+    
+}
+.bottom-section ul{
+    list-style: none;
+    line-height: 25px;
+    font-size: small;
+}
+.bottom-section-title{
+    margin-bottom: 15px;
+}
+.update-info h3{
+    margin-bottom: 20px;
+    font-size: medium;
+}
+.update-info p{
+    width: 150px;
+    line-height: 25px;
+}
+.update-info input{
+    padding: 8px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.button-subscribe button{
+    background-color: rgb(45, 170, 204);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 55px;
+    border-radius: 8px;
+    margin-top: 10px;
+}

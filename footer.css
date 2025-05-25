@@ -1,0 +1,28 @@
+footer{
+    margin-top: 60px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+.social-media-logo{
+    display: flex;
+    gap: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.social-media-logo :hover{
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.social-media-logo img{
+    width: 30px;
+}
+.copyright{
+    margin-left: 540px;
+    margin-top: 10px;
+    font-size: smaller;
+    margin-bottom: 100px;
+}
